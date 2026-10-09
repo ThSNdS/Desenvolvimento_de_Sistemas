@@ -11,6 +11,8 @@ while True:
         vezes += 1
         soma += algoritmo
 
-media = soma / vezes
-
-print(f'\n{media} {soma} {vezes}')
+if vezes == 0:
+    media = soma / vezes
+    print(f'\n{media} {soma} {vezes}')
+else:
+    print('Sem números.')
